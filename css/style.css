@@ -1,0 +1,160 @@
+body {
+    margin: auto;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a {
+    color: #101820ff;
+}
+
+.navbar {
+    background-color: #FEE715FF;
+    color: black;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bolder;
+    padding: 10px;
+    padding-left: 0px;
+    padding-right: 0;
+    padding-bottom: 9px;
+    text-align: right;
+    font-size: large;
+    justify-content: left;
+    display: block;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    border: none;
+}
+
+.nav-items {
+    padding: 10px 10px;
+    transition: 0.3s;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+
+.nav-items:hover {
+    background-color: #101820ff;
+    color: #FEE715FF;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+#home-sec {
+    background-color: #FEE715FF;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 75px;
+    padding: auto;
+}
+
+
+.home-row{
+    margin-right: 0px;
+}
+.home-div {
+    padding-left: 15%;
+    text-align: left;
+}
+
+.home-img{
+    position: static;
+    margin-right: 0;
+}
+
+.custom-btn {
+    background-color: #101820ff;
+    color: #FEE715FF;
+    margin: 10px 15px;
+    font-family: 'Noto Sans JP', sans-serif;
+    border-radius: 25px;
+    font-size: large;
+    padding: 10px 30px;
+    margin-left: 0;
+    border: none;
+    transition: 0.3s;
+    font-weight: bolder;
+}
+
+.custom-btn:hover{
+    background-color: white;
+    color: #101820ff;
+}
+
+#products-sec {
+    background-color: #101820ff;
+    padding: 100px 150px;
+    text-align: center;
+}
+
+
+.custom-btn-prod {
+    background-color: #101820ff;
+    color: #FEE715FF;
+    margin: 10px 15px;
+    font-family: 'Noto Sans JP', sans-serif;
+    border-radius: 25px;
+    font-size: large;
+    padding: 10px 30px;
+    margin-left: 0;
+    border: none;
+    transition: 0.3s;
+    font-weight: bolder;
+}
+
+.custom-btn-prod:hover{
+    background-color:#FEE715FF;
+    color: #101820ff;
+}
+
+
+#about-sec {
+    background-color: #FEE715FF;
+    padding: 3rem 10rem;
+    text-align: justify;
+}
+.img-batman{
+    padding-top: 50px;
+}
+#contact-sec {
+    background-color: #101820ff;
+    color: #FEE715FF;
+    
+}
+
+.abt-form{
+    padding: 10%;
+}
+
+input{
+    border-color: #FEE715FF;
+    background-color: #101820ff;
+    border-style: solid;
+    color: #FEE715FF;
+    width: 25%;
+    border-radius: 15px;
+    /* margin: 10px; */
+    margin-left: 0;
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: large;
+}
+
+textarea{
+    border-color: #FEE715FF;
+    background-color: #101820ff;
+    border-style: solid;
+    color: #FEE715FF;
+    width: 50%;
+    border-radius: 15px;
+    margin: 10px;
+    margin-left: 0;
+    border-width: 2px;
+}

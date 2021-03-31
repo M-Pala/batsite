@@ -49,8 +49,8 @@ a {
 #home-sec {
     background-color: #FEE715FF;
     margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0%;
+    margin-right: 0%;
     padding-bottom: 75px;
     padding: auto;
 }
@@ -67,25 +67,27 @@ a {
 .home-img{
     position: static;
     margin-right: 0;
+    height:700px;
+    width:700px;
 }
 
 .custom-btn {
-    background-color: #101820ff;
-    color: #FEE715FF;
+    background-color:#FEE715FF ;
+    color: #101820ff;
     margin: 10px 15px;
-    font-family: 'Noto Sans JP', sans-serif;
+    
     border-radius: 25px;
     font-size: large;
     padding: 10px 30px;
     margin-left: 0;
-    border: none;
+    border: solid #101820ff;
     transition: 0.3s;
     font-weight: bolder;
 }
 
 .custom-btn:hover{
-    background-color: white;
-    color: #101820ff;
+    background-color: #101820ff;
+    color: #FEE715FF;
 }
 
 #products-sec {
@@ -94,6 +96,9 @@ a {
     text-align: center;
 }
 
+.cust-card{
+    margin: 10px;
+}
 
 .custom-btn-prod {
     background-color: #101820ff;
@@ -122,6 +127,9 @@ a {
 }
 .img-batman{
     padding-top: 50px;
+    height: 400px;
+    width: 537.5px;
+    
 }
 #contact-sec {
     background-color: #101820ff;
@@ -157,4 +165,59 @@ textarea{
     margin: 10px;
     margin-left: 0;
     border-width: 2px;
+}
+
+.contact-btn{
+    background-color: #101820ff ;
+    color: #FEE715FF ;
+    margin: 10px 15px;
+    font-family: 'Noto Sans JP', sans-serif;
+    border-radius: 25px;
+    font-size: large;
+    padding: 10px 30px;
+    margin-left: 0;
+    border: solid #FEE715FF;
+    transition: 0.3s;
+    font-weight: bolder;
+}
+
+.contact-btn:hover{
+    background-color: #FEE715FF;
+    color: #101820ff;
+}
+
+@media (max-width: 700px) {
+
+    .navbar{
+        text-align: center;
+    }
+
+    .home-img{
+        text-align: center;
+        height: 350px;
+        width: 350px;
+    }
+
+    .img-batman{   
+        text-align: center;
+        height: 268.75px;
+        width: 200px;
+    }
+
+     .abt-cnt{
+        font-size:small;
+     
+    } 
+
+    #about-sec{
+        padding: 3em 5%;
+    }
+    
+    #products-sec{
+        padding: 5% 5%;
+    }
+
+    input, textarea{
+        width: 90%;
+    }
 }

@@ -43,7 +43,7 @@
 
     <section id="home-sec">
         <div class="row home-row">
-            <div class="col-lg-6 col-md-6 home-div">
+            <div class="col-lg-6 home-div">
                 <br><br><br>
                 <h1>Batman</h1>
                 <h3>I am the night, I am Vengence, I am BATMAN</h3>
@@ -55,8 +55,8 @@
                 <button class="custom-btn">Sign Up</button><button class="custom-btn">Sign In</button>
 
             </div>
-            <div class="col-lg-6 col-md-6">
-                <img class="home-img" src="images/batman-logo.png" alt="batman" height="700" width="700">
+            <div class="col-lg-6" style="text-align: center;">
+                <img class="home-img" src="images/batman-logo.png" alt="batman">
             </div>
 
         </div>
@@ -67,8 +67,8 @@
 
     <section id="products-sec">
         <div class="row">
-            <div class="col-lg-4">
-                <div class="card">
+            <div class="col-lg-4 ">
+                <div class="card cust-card">
                     <div class="card-body">
                         <h5 class="card-title">Grayson Pack</h5>
                         <hr>
@@ -79,8 +79,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
-                <div class="card">
+            <div class="col-lg-4 ">
+                <div class="card cust-card">
                     <div class="card-body">
                         <h5 class="card-title">Damian Pack</h5>
                         <hr>
@@ -91,8 +91,8 @@
                 </div>
             </div>
 
-            <div class="col-lg-4">
-                <div class="card">
+            <div class="col-lg-4 ">
+                <div class="card cust-card">
                     <div class="card-body">
                         <h5 class="card-title">Jason Pack</h5>
                         <hr>
@@ -110,18 +110,26 @@
     <section id="about-sec">
         <div class="row">
             <div class="col-lg-6">
-                <p> <h3> Batman is a superhero who appears in American comic books published by DC Comics. Batman was created
-                    by artist Bob Kane and writer Bill Finger, and debuted in the 27th issue of the comic book Detective
-                    Comics on March 30, 1939. In the DC Universe continuity, Batman is the alias of Bruce Wayne, a
-                    wealthy American playboy, philanthropist, and owner of Wayne Enterprises based in Gotham City. Kane,
-                    Finger, and future DC writers accompanied Batman with supporting characters, including his sidekick
-                    Robin, allies Alfred Pennyworth, James Gordon and Catwoman, and foes such as the Penguin, the
-                    Riddler, the Scarecrow, and his archenemy, the Joker. Batman's origin story features him swearing
-                    vengeance against criminals after witnessing the murder of his parents Thomas and Martha; he trains
-                    himself physically and intellectually, crafts a bat-inspired persona, and monitors the Gotham
-                    streets at night. <h3></p>
+                <p>
+                    <h3 class="abt-cnt"> Batman is a superhero who appears in American comic books published by DC
+                        Comics. Batman was created
+                        by artist Bob Kane and writer Bill Finger, and debuted in the 27th issue of the comic book
+                        Detective
+                        Comics on March 30, 1939. In the DC Universe continuity, Batman is the alias of Bruce Wayne, a
+                        wealthy American playboy, philanthropist, and owner of Wayne Enterprises based in Gotham City.
+                        Kane,
+                        Finger, and future DC writers accompanied Batman with supporting characters, including his
+                        sidekick
+                        Robin, allies Alfred Pennyworth, James Gordon and Catwoman, and foes such as the Penguin, the
+                        Riddler, the Scarecrow, and his archenemy, the Joker. Batman's origin story features him
+                        swearing
+                        vengeance against criminals after witnessing the murder of his parents Thomas and Martha; he
+                        trains
+                        himself physically and intellectually, crafts a bat-inspired persona, and monitors the Gotham
+                        streets at night. <h3>
+                </p>
             </div>
-            <div class="col-lg-6 img-batman"><img src="images/batman.png" alt="" width="537.5" height="400"></div>
+            <div class="col-lg-6 " style="text-align: center;"><img class="img-batman" src="images/batman.png" alt=""></div>
         </div>
 
     </section>
@@ -129,11 +137,17 @@
 
 
     <section id="contact-sec">
-        <form class="abt-form" action="">
-            <label for="emial"><h4>Email</h4></label><br>
+        <form class="abt-form" action="mailto:dummy@dummy.com" method="post" enctype="text/plain">
+            <label for="emial">
+                <h4>Email</h4>
+            </label><br>
             <input type="email" name="email" id=""><br>
-            <label for="msg"><h4>Your Message</h4></label><br>
+            <label for="msg">
+                <h4>Your Message</h4>
+            </label><br>
             <textarea name="msg" id="" cols="70" rows="10"></textarea><br>
+
+            <button type="submit" class="contact-btn">Send</button>
         </form>
 
     </section>
